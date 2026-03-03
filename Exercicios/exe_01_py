@@ -1,6 +1,3 @@
-
-
-
 print("Qual valor, em segundos, pretendes converter?")
 
 seg=int(input())
