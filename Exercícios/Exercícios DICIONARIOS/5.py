@@ -1,0 +1,11 @@
+palavra = input("Introduza uma palavra: ").lower()
+
+contagem = {}
+
+for letra in palavra:
+    if letra in contagem:
+        contagem[letra] += 1
+    else:
+        contagem[letra] = 1
+
+print(f"Resultado: {contagem}")
